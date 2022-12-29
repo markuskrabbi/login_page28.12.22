@@ -86,7 +86,11 @@ input:focus::placeholder {
     justify-content: center;
     margin-left: 5em;
     padding-top: 0.5em;
+  }
+
+  .noDecoration, a:link, a:visited {
     text-decoration: none;
+    color: black;
   }
 
   .footer {
