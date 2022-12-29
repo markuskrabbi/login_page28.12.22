@@ -1,0 +1,123 @@
+body {
+    background-image: url(https://images.unsplash.com/photo-1454496522488-7a8e488e8606?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2076&q=80);
+}
+
+.white-box {
+    border: thick solid rgba(0,0,0,.2);
+    border-width: 0.5cm;
+    border-radius: 30px 50px 30px ;
+    color: #fff;
+    width: 600px;
+    height: 700px;
+    background-color: rgba(0,0,0,.5);
+    color: #fff;
+    float: left;
+    margin-left: 41em;
+    margin-top: 7em;
+}
+
+.logo {
+    position: absolute;
+    top: 1em;
+    left: 53.9em;
+    
+}
+
+.header_H {
+    display: flex;
+    justify-content: center;
+    margin-top: 11em;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.header_text {
+    display: flex;
+    justify-content: center;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.log_in {
+    margin-top: 2em;
+    margin-right: 2.5em;
+}
+
+.username_box {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 2.5%;
+}
+
+.password_box {
+    display: flex;
+    justify-content: center;
+    padding-top: 2.5%;
+    
+}
+input:focus::placeholder {
+    color: transparent;
+}
+
+.footer {
+    display: flex;
+    margin-left: 5em;
+    margin-top: 12.5em;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.username_box {
+  transition: transform .5s; /* Animation */
+  padding: 0%;
+}
+
+.username_box:hover {
+  transform: scale(1.25); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+}
+
+.password_box {
+    transition: transform .5s;
+  }
+  
+  .password_box:hover {
+    transform: scale(1.25);
+  }
+
+  .password_forgot {
+    display: flex;
+    justify-content: center;
+    margin-left: 5em;
+    padding-top: 0.5em;
+    text-decoration: none;
+  }
+
+  .footer {
+    display: flex;
+    justify-content: center;
+    margin-left: -6em;
+  }
+
+  .fb {
+    margin-left: 3em;
+    transition: transform .5s;
+  }
+
+  .fb:hover {
+    transform: scale(1.25);
+  }
+
+  .insta {
+    margin-left: 1.5em;
+    transition: transform .5s;
+  }
+
+  .insta:hover {
+    transform: scale(1.25);
+  }
+
+  .twitter {
+    margin-left: 1.5em;
+    transition: transform .5s;
+  }
+
+  .twitter:hover {
+    transform: scale(1.25);
+  }
